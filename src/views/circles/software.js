@@ -140,7 +140,7 @@ export default function Software() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/software/120804961_2536411073315491_5486620476036104554_n - Jayod Kavinda.jpeg").default}
+                    src={require("assets/img/software/12.software pres.png").default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">

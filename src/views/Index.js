@@ -62,7 +62,7 @@ export default function Index() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0 typewriter">
               <h1 className="font-semibold text-5xl text-white">
-                Weclome To EIES
+                Welcome To EIES
               </h1>
               <p className="mt-4 text-lg leading-relaxed  text-white">
                 The most active student society of the Department of Electrical
@@ -119,7 +119,7 @@ export default function Index() {
                   <h4 className="text-xl text-center font-bold text-white">
                     Head Of Department
                     <br />
-                    Dr Eranda Jayatunga
+                    Mr. Eranda Jayatunga
                   </h4>
                   <p className="text-md font-light text-center mt-2 text-white">
                     <span className=""> </span>

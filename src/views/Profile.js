@@ -54,7 +54,7 @@ export default function Profile() {
             </svg>
           </div>
         </section>
-        <section className="relative  py-20 bg-yellow-500">
+        <section className="relative py-20 bg-yellow-500">
           <div className="container  mx-auto px-6">
             <div className="relative  flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64">
               <div className="px-6">
@@ -119,16 +119,71 @@ export default function Profile() {
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold">Meet Our EX-COM</h2>
-                <p className="text-lg leading-relaxed m-4 text-blueGray-500">
-                </p>
+                <p className="text-lg leading-relaxed m-4 text-blueGray-500"></p>
               </div>
             </div>
             <div className="flex flex-wrap">
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"></div>{" "}
               <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/eies/285060138_2210271425792332_6938791227062502464_n - Gihan Dissanayaka.jpg").default}
+                    src={
+                      require("assets/img/eies/Screenshot 2022-08-09 at 2.28.07 PM.png")
+                        .default
+                    }
+                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                  />
+                  <div className="pt-6 text-center">
+                    <h5 className="text-xl font-bold">Dr. Subodha Gunawardena</h5>
+                    <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                      Senior Treasurer
+                    </p>
+                    <div className="mt-6">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div className="px-6">
+                  <img
+                    alt="..."
+                    src={
+                      require("assets/img/eies/Screenshot 2022-08-09 at 2.27.59 PM.png")
+                        .default
+                    }
+                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                  />
+                  <div className="pt-6 text-center">
+                    <h5 className="text-xl font-bold">Dr. N.W. Prins</h5>
+                    <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                      Committee Member <br /> (staff Member)
+                    </p>
+                    <div className="mt-6">
+                      {/* <button
+                        className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        {" "}
+                        <a href="https://www.linkedin.com/in/gihan-dissanayaka-9947b3216/">
+                          {" "}
+                          <i className="fab fa-linkedin"></i>
+                        </a>
+                      </button> */}
+                    </div>
+                  </div>
+                </div>
+              </div>{" "}
+             {" "}
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"></div>
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div className="px-6">
+                  <img
+                    alt="..."
+                    src={
+                      require("assets/img/eies/285060138_2210271425792332_6938791227062502464_n - Gihan Dissanayaka.jpg")
+                        .default
+                    }
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
@@ -155,7 +210,36 @@ export default function Profile() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/eies/Image - Chathurya Wickramathilaka.jpg").default}
+                    src={
+                      require("assets/img/eies/4.vice president.png").default
+                    }
+                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                  />
+                  <div className="pt-6 text-center">
+                    <h5 className="text-xl font-bold">Shashika Vimarshana</h5>
+                    <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                      Vice President
+                    </p>
+                    <div className="mt-6">
+                      <button
+                        className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        {" "}
+                        <a href="https://www.linkedin.com/in/sajitha-wijewantha-7a5a76200">
+                          {" "}
+                          <i className="fab fa-linkedin"></i>
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div className="px-6">
+                  <img
+                    alt="..."
+                    src={require("assets/img/eies/2. secretary.png").default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
@@ -184,7 +268,92 @@ export default function Profile() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/eies/E29B445E-88FD-4C68-BCA0-906BEB4C61CB - Thihara Kumarasinghe.jpeg").default}
+                    src={require("assets/img/eies/3.ass sec.png").default}
+                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                  />
+                  <div className="pt-6 text-center">
+                    <h5 className="text-xl font-bold">Sanduni Dissanayaka</h5>
+                    <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                      Assistant Secretary
+                    </p>
+                    <div className="mt-6">
+                      <button
+                        className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        {" "}
+                        <a href="https://www.linkedin.com/in/sanduni-dissanayaka-b83101207">
+                          {" "}
+                          <i className="fab fa-linkedin"></i>
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div className="px-6">
+                  <img
+                    alt="..."
+                    src={require("assets/img/eies/5.socail sec.png").default}
+                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                  />
+                  <div className="pt-6 text-center">
+                    <h5 className="text-xl font-bold">Poorna Manjula </h5>
+                    <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                      Social Secretary
+                    </p>
+                    <div className="mt-6">
+                      <button
+                        className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        {" "}
+                        <a href="https://www.linkedin.com/in/sajitha-wijewantha-7a5a76200">
+                          {" "}
+                          <i className="fab fa-linkedin"></i>
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div className="px-6">
+                  <img
+                    alt="..."
+                    src={
+                      require("assets/img/eies/6.junior treasurer.png").default
+                    }
+                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                  />
+                  <div className="pt-6 text-center">
+                    <h5 className="text-xl font-bold">
+                      Kashyapa Rathnasekara{" "}
+                    </h5>
+                    <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                      Junior Treasurer
+                    </p>
+                    <div className="mt-6">
+                      <button
+                        className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        {" "}
+                        <a href="https://www.linkedin.com/in/sajitha-wijewantha-7a5a76200">
+                          {" "}
+                          <i className="fab fa-linkedin"></i>
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div className="px-6">
+                  <img
+                    alt="..."
+                    src={require("assets/img/eies/16.editor.png").default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
@@ -196,10 +365,11 @@ export default function Profile() {
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
-                      > <a href=""></a>
+                      >
+                        {" "}
+                        <a href=""></a>
                         <i className="fab fa-linkedin"></i>
                       </button>
-
                     </div>
                   </div>
                 </div>
@@ -208,20 +378,26 @@ export default function Profile() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/eies/20220701_183841 - Sanduni Dissanayaka.jpg").default}
+                    src={
+                      require("assets/img/eies/7.committee member.png").default
+                    }
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Sanduni Dissanayaka</h5>
+                    <h5 className="text-xl font-bold">Thiwanka Silva </h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                    Assistant Secretary 
+                      Committee Member
                     </p>
                     <div className="mt-6">
                       <button
-                        className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
-                      > <a href="https://www.linkedin.com/in/sanduni-dissanayaka-b83101207">  <i className="fab fa-linkedin"></i></a>
-                       
+                      >
+                        {" "}
+                        <a href="https://www.linkedin.com/in/sajitha-wijewantha-7a5a76200">
+                          {" "}
+                          <i className="fab fa-linkedin"></i>
+                        </a>
                       </button>
                     </div>
                   </div>
@@ -229,14 +405,100 @@ export default function Profile() {
               </div>
               <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
-                  <div className="pt-6 text-center"></div>
+                  <img
+                    alt="..."
+                    src={
+                      require("assets/img/eies/8.committee member.png").default
+                    }
+                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                  />
+                  <div className="pt-6 text-center">
+                    <h5 className="text-xl font-bold">Samika Lakshan </h5>
+                    <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                      Committee Member
+                    </p>
+                    <div className="mt-6">
+                      <button
+                        className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        {" "}
+                        <a href="https://www.linkedin.com/in/sajitha-wijewantha-7a5a76200">
+                          {" "}
+                          <i className="fab fa-linkedin"></i>
+                        </a>
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/eies/Image-218_-_Copy__2_-removebg-preview (1) - Sajitha Wijewantha.jpg").default}
+                    src={
+                      require("assets/img/eies/9.committee member.png").default
+                    }
+                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                  />
+                  <div className="pt-6 text-center">
+                    <h5 className="text-xl font-bold">Rohan Silva </h5>
+                    <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                      Committee Member
+                    </p>
+                    <div className="mt-6">
+                      <button
+                        className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        {" "}
+                        <a href="https://www.linkedin.com/in/sajitha-wijewantha-7a5a76200">
+                          {" "}
+                          <i className="fab fa-linkedin"></i>
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div className="px-6">
+                  <img
+                    alt="..."
+                    src={
+                      require("assets/img/eies/Sachini - Chamathka Sachini.png")
+                        .default
+                    }
+                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                  />
+                  <div className="pt-6 text-center">
+                    <h5 className="text-xl font-bold">Sachini Ranaweera </h5>
+                    <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                      Committee member
+                    </p>
+                    <div className="mt-6">
+                      <button
+                        className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        {" "}
+                        <a href="https://www.linkedin.com/in/sachini-ranaweera-398964208">
+                          {" "}
+                          <i className="fab fa-linkedin"></i>
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div className="px-6">
+                  <img
+                    alt="..."
+                    src={
+                      require("assets/img/eies/Image-218_-_Copy__2_-removebg-preview (1) - Sajitha Wijewantha.jpg")
+                        .default
+                    }
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
@@ -248,40 +510,15 @@ export default function Profile() {
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
-                      > <a href="https://www.linkedin.com/in/sajitha-wijewantha-7a5a76200">    <i className="fab fa-linkedin"></i></a>
-                     
+                      >
+                        {" "}
+                        <a href="https://www.linkedin.com/in/sajitha-wijewantha-7a5a76200">
+                          {" "}
+                          <i className="fab fa-linkedin"></i>
+                        </a>
                       </button>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src={require("assets/img/eies/Sachini - Chamathka Sachini.png").default}
-                    className="shadow-lg rounded-full mx-auto max-w-120-px"
-                  />
-                  <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Sachini Ranaweera </h5>
-                    <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      Committee member
-                    </p>
-                    <div className="mt-6">
-                      <button
-                        className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button" 
-                      > <a href="https://www.linkedin.com/in/sachini-ranaweera-398964208"> <i className="fab fa-linkedin"></i></a>
-                    
-                      </button>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <div className="pt-6 text-center"></div>
                 </div>
               </div>
             </div>
