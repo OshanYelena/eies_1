@@ -7,7 +7,22 @@ import Footer from "components/Footers/Footer.js";
 import "../assets/styles/slider.css";
 import "../assets/styles/mask.css";
 import "../assets/styles/homeHeader.css";
+
+import image_1 from '../assets/img/DSC_0007-01.jpeg'
+import image_2 from '../assets/img/DSC_0048-01.jpeg'
+import image_3 from '../assets/img/81468739_2304218053201462_4629050236197666816_n.jpg'
 import Carousel from "components/slider/slider.js";
+import SwiftSlider from 'react-swift-slider'
+
+const data =  [
+  {'id':'1','src':`${image_1}`},
+  {'id':'1','src':`${image_2}`},
+  {'id':'1','src':`${image_3}`},
+  // {'id':'2','src':'https://media.mfbproject.co.za/repos/2017_alfa_romeo_stelvioquadrifoglio_official_09.jpg'},
+  // {'id':'3','src':'https://media.mfbproject.co.za/repos/2018-alfa-romeo-stelvio-quadrifoglio-specs-photos-speed-2.jpg'},
+  // {'id':'4','src':'https://media.mfbproject.co.za/repos/alfa-romeo-giulia-quadrifoglio-2017-us-wallpapers-and-hd-images-13.jpg'},
+  // {'id':'5','src':'https://media.mfbproject.co.za/repos/ARWP_Infra_Desk_1920_1080_Quad.png'}
+];
 
 export default function Index() {
   return (
@@ -15,7 +30,18 @@ export default function Index() {
       <IndexNavbar fixed />
 
       <section className="header slider-cap-wrapper relative pt-16 items-center flex h-screen max-h-860-px">
-        <div class="box">
+      <div
+            className="absolute  top-0 w-full h-full bg-center bg-cover"
+            // style={{
+            //   backgroundImage:
+            //   `url(${})`
+            // }}
+            style={{zIndex:-999, filter: blur(8)}}
+            
+          >
+            <SwiftSlider data={data}  height={900}/>
+          </div>
+        {/* <div class="box">
           <div class="wave -one">
             <ul className="slideshow">
               <li>
@@ -29,15 +55,16 @@ export default function Index() {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
+          
 
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0 typewriter">
-              <h1 className="font-semibold text-5xl text-blueGray-600">
+              <h1 className="font-semibold text-5xl text-white">
                 Weclome To EIES
               </h1>
-              <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
+              <p className="mt-4 text-lg leading-relaxed  text-white">
                 The most active student society of the Department of Electrical
                 And Information Engineering of the Faculty of Engineering,
                 University of Ruhuna provides DEIE students the chance to grow
@@ -460,10 +487,6 @@ export default function Index() {
           <div className="w-full md:w-6/12 px-12 md:px-4">
             <h2 className="font-semibold text-4xl">Photo Gallery </h2>
             <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-              saepe voluptates, libero minima cupiditate quasi id maxime
-              exercitationem corporis, hic perferendis labore delectus eos
-              repellendus, voluptate rerum! Repellendus, pariatur dolores?
             </p>
           </div>
         </div>

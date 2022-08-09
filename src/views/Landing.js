@@ -32,10 +32,11 @@ export default function Landing() {
                     Our Circles
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
-                    iusto quis possimus enim velit! Consequuntur ipsam odit sint
-                    molestias magni modi fugiat laborum aperiam, qui facere
-                    ullam a? Ducimus, reprehenderit!
+                    The EIES comprises 4 sub-circles related to leading
+                    sub-fields of Electrical and Information Engineering such as
+                    Power, Telecommunication, Electronics & Software. Each of
+                    these circles individually organizes events with the active
+                    participation of many students.
                   </p>
                 </div>
               </div>

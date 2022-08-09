@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // components
-
+import background from '../../assets/img/csm_PI-Electronics-Manufacturing_1aac684c8a.jpeg'
 import Navbar from "components/Navbars/AuthNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
@@ -16,7 +16,7 @@ export default function Elec() {
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
               backgroundImage:
-                "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
+              `url(${background})`
             }}
           >
             <span
@@ -129,11 +129,9 @@ export default function Elec() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold">Here are our heroes</h2>
+                <h2 className="text-4xl font-semibold">Electronic Circle - Committee Members 2021/2022</h2>
                 <p className="text-lg leading-relaxed m-4 text-blueGray-500">
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-                  potentially record maximum.
+                
                 </p>
               </div>
             </div>
