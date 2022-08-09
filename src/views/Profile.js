@@ -22,17 +22,17 @@ export default function Profile() {
             ></span>
           </div>
           <div className="relative pt-10 pb-32 flex content-center items-center justify-center min-h-screen-75">
-          <div className="container relative mx-auto">
-            <div className="items-center flex flex-wrap">
-              <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                <div className="pr-12">
-                  <h1 className="text-white font-semibold text-5xl">
-                  Electrical And Information Engineering Society (EIES)
-                  </h1>
+            <div className="container relative mx-auto">
+              <div className="items-center flex flex-wrap">
+                <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+                  <div className="pr-12">
+                    <h1 className="text-white font-semibold text-5xl">
+                      Electrical And Information Engineering Society (EIES)
+                    </h1>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
           </div>
           <div
             className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px"
@@ -54,7 +54,7 @@ export default function Profile() {
             </svg>
           </div>
         </section>
-        <section className="relative py-20 bg-yellow-500">
+        <section className="relative  py-20 bg-yellow-500">
           <div className="container  mx-auto px-6">
             <div className="relative  flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64">
               <div className="px-6">
@@ -118,11 +118,8 @@ export default function Profile() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold">Here are our heroes</h2>
+                <h2 className="text-4xl font-semibold">Meet Our EX-COM</h2>
                 <p className="text-lg leading-relaxed m-4 text-blueGray-500">
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-                  potentially record maximum.
                 </p>
               </div>
             </div>
@@ -131,32 +128,24 @@ export default function Profile() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-1-800x800.jpg").default}
+                    src={require("assets/img/eies/285060138_2210271425792332_6938791227062502464_n - Gihan Dissanayaka.jpg").default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Ryan Tompson</h5>
+                    <h5 className="text-xl font-bold">Gihan Dissanayaka</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      Web Developer
+                      President
                     </p>
                     <div className="mt-6">
                       <button
                         className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
                       >
-                        <i className="fab fa-twitter"></i>
-                      </button>
-                      <button
-                        className="bg-lightBlue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-facebook-f"></i>
-                      </button>
-                      <button
-                        className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-dribbble"></i>
+                        {" "}
+                        <a href="https://www.linkedin.com/in/gihan-dissanayaka-9947b3216/">
+                          {" "}
+                          <i className="fab fa-linkedin"></i>
+                        </a>
                       </button>
                     </div>
                   </div>
@@ -166,26 +155,26 @@ export default function Profile() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-2-800x800.jpg").default}
+                    src={require("assets/img/eies/Image - Chathurya Wickramathilaka.jpg").default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Romina Hadid</h5>
+                    <h5 className="text-xl font-bold">
+                      Chathurya Wickramathilaka{" "}
+                    </h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      Marketing Specialist
+                      Secretary
                     </p>
                     <div className="mt-6">
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
                       >
-                        <i className="fab fa-google"></i>
-                      </button>
-                      <button
-                        className="bg-lightBlue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-facebook-f"></i>
+                        {" "}
+                        <a href="http://linkedin.com/in/chathuryawickramathilaka">
+                          {" "}
+                          <i className="fab fa-linkedin"></i>
+                        </a>
                       </button>
                     </div>
                   </div>
@@ -195,33 +184,22 @@ export default function Profile() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-3-800x800.jpg").default}
+                    src={require("assets/img/eies/E29B445E-88FD-4C68-BCA0-906BEB4C61CB - Thihara Kumarasinghe.jpeg").default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Alexa Smith</h5>
+                    <h5 className="text-xl font-bold">Thihara kumarasinghe</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      UI/UX Designer
+                      Editor
                     </p>
                     <div className="mt-6">
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
-                      >
-                        <i className="fab fa-google"></i>
+                      > <a href=""></a>
+                        <i className="fab fa-linkedin"></i>
                       </button>
-                      <button
-                        className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-twitter"></i>
-                      </button>
-                      <button
-                        className="bg-blueGray-700 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-instagram"></i>
-                      </button>
+
                     </div>
                   </div>
                 </div>
@@ -230,38 +208,20 @@ export default function Profile() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-4-470x470.png").default}
+                    src={require("assets/img/eies/20220701_183841 - Sanduni Dissanayaka.jpg").default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Jenna Kardi</h5>
+                    <h5 className="text-xl font-bold">Sanduni Dissanayaka</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      Founder and CEO
+                    Assistant Secretary 
                     </p>
                     <div className="mt-6">
                       <button
                         className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
-                      >
-                        <i className="fab fa-dribbble"></i>
-                      </button>
-                      <button
-                        className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-google"></i>
-                      </button>
-                      <button
-                        className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-twitter"></i>
-                      </button>
-                      <button
-                        className="bg-blueGray-700 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-instagram"></i>
+                      > <a href="https://www.linkedin.com/in/sanduni-dissanayaka-b83101207">  <i className="fab fa-linkedin"></i></a>
+                       
                       </button>
                     </div>
                   </div>
@@ -276,26 +236,20 @@ export default function Profile() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-2-800x800.jpg").default}
+                    src={require("assets/img/eies/Image-218_-_Copy__2_-removebg-preview (1) - Sajitha Wijewantha.jpg").default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Romina Hadid</h5>
+                    <h5 className="text-xl font-bold">Sajitha Wijewantha </h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      Marketing Specialist
+                      Committee Member
                     </p>
                     <div className="mt-6">
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
-                      >
-                        <i className="fab fa-google"></i>
-                      </button>
-                      <button
-                        className="bg-lightBlue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-facebook-f"></i>
+                      > <a href="https://www.linkedin.com/in/sajitha-wijewantha-7a5a76200">    <i className="fab fa-linkedin"></i></a>
+                     
                       </button>
                     </div>
                   </div>
@@ -305,33 +259,22 @@ export default function Profile() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-3-800x800.jpg").default}
+                    src={require("assets/img/eies/Sachini - Chamathka Sachini.png").default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Alexa Smith</h5>
+                    <h5 className="text-xl font-bold">Sachini Ranaweera </h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      UI/UX Designer
+                      Committee member
                     </p>
                     <div className="mt-6">
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-google"></i>
+                        type="button" 
+                      > <a href="https://www.linkedin.com/in/sachini-ranaweera-398964208"> <i className="fab fa-linkedin"></i></a>
+                    
                       </button>
-                      <button
-                        className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-twitter"></i>
-                      </button>
-                      <button
-                        className="bg-blueGray-700 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-instagram"></i>
-                      </button>
+
                     </div>
                   </div>
                 </div>

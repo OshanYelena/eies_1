@@ -66,7 +66,7 @@ export default function Navbar(props) {
                 <Link to="/profile"> About</Link>
               </li>
               <li className="flex items-center">
-                <IndexDropdown />
+                {/* <IndexDropdown /> */}
               </li>
               <li className="flex items-center">
                 <a

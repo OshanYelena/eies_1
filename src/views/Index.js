@@ -38,10 +38,10 @@ export default function Index() {
                 Weclome To EIES
               </h1>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Necessitatibus voluptates quod aliquam nihil sint! Quas earum
-                repudiandae aperiam, id ut magni labore ducimus rerum aspernatur
-                ea. Corporis culpa nihil enim?
+                The most active student society of the Department of Electrical
+                And Information Engineering of the Faculty of Engineering,
+                University of Ruhuna provides DEIE students the chance to grow
+                their technical and soft skills via many events
               </p>
             </div>
           </div>
@@ -74,7 +74,7 @@ export default function Index() {
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-900">
                 <img
                   alt="..."
-                  src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                  src={require("assets/img/Photo-Eranda.jpeg").default}
                   className="w-full align-middle rounded-t-lg"
                 />
                 <blockquote className="relative p-8 mb-4">
@@ -95,10 +95,10 @@ export default function Index() {
                     Dr Eranda Jayatunga
                   </h4>
                   <p className="text-md font-light text-center mt-2 text-white">
-                   <span className=""> </span> 
+                    <span className=""> </span>
                     <br />
-                     Senior Lecturer MEng (AIT, Thailand)
-                    BScEng (Hons) (Peradeniya)
+                    Senior Lecturer MEng (AIT, Thailand) BScEng (Hons)
+                    (Peradeniya)
                   </p>
                 </blockquote>
               </div>
@@ -460,7 +460,10 @@ export default function Index() {
           <div className="w-full md:w-6/12 px-12 md:px-4">
             <h2 className="font-semibold text-4xl">Photo Gallery </h2>
             <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque saepe voluptates, libero minima cupiditate quasi id maxime exercitationem corporis, hic perferendis labore delectus eos repellendus, voluptate rerum! Repellendus, pariatur dolores?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              saepe voluptates, libero minima cupiditate quasi id maxime
+              exercitationem corporis, hic perferendis labore delectus eos
+              repellendus, voluptate rerum! Repellendus, pariatur dolores?
             </p>
           </div>
         </div>

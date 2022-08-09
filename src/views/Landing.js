@@ -84,9 +84,10 @@ export default function Landing() {
                     </div>
                     <h6 className="text-xl font-semibold">Software Circle</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
-                    iusto quis possimus enim velit! Consequuntur ipsam odit sint
-                    molestias magni modi fugiat laborum aperiam, qui facere
+                      Software circle of EIES promotes software based carrier
+                      sector and empower the undergraduates to broaden their
+                      scope of knowledge regarding software field. We encourage
+                      the application of ...
                     </p>
                   </div>
                 </div>
@@ -112,9 +113,10 @@ export default function Landing() {
                     </div>
                     <h6 className="text-xl font-semibold">Power Circle</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
-                    iusto quis possimus enim velit! Consequuntur ipsam odit sint
-                    molestias magni modi fugiat laborum aperiam, qui facere
+                      Power circle of EIES expands the public awareness of the
+                      many faces of power engineering and how they affect
+                      ongoing increasingly developing energy demand. Our circle
+                      mainly focuses on the decaying ...
                     </p>
                   </div>
                 </div>
@@ -140,9 +142,10 @@ export default function Landing() {
                     </div>
                     <h6 className="text-xl font-semibold">Electronic Circle</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
-                    iusto quis possimus enim velit! Consequuntur ipsam odit sint
-                    molestias magni modi fugiat laborum aperiam, qui facere!
+                      Electronic circle of EIES harnesses the collective
+                      experience of technology and innovation professionals
+                      aiming the undergraduate community. By harnessing the
+                      collective experience of technology and ...
                     </p>
                   </div>
                 </div>
@@ -173,9 +176,10 @@ export default function Landing() {
                       Telecommunication And Networking Circle
                     </h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
-                    iusto quis possimus enim velit! Consequuntur ipsam odit sint
-                    molestias magni modi fugiat laborum aperiam, qui facere
+                      Telecommunication circle of EIES helps to raise the
+                      awareness of the undergraduates regarding the use of the
+                      internet and other information and communication
+                      technologies ...
                     </p>
                   </div>
                 </div>

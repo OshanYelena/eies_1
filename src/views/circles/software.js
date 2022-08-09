@@ -32,10 +32,12 @@ export default function Software() {
                     Welcome to Software Circle
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
-                    iusto quis possimus enim velit! Consequuntur ipsam odit sint
-                    molestias magni modi fugiat laborum aperiam, qui facere
-                    ullam a? Ducimus, reprehenderit!
+                    Software circle of EIES promotes software based carrier
+                    sector and empower the undergraduates to broaden their scope
+                    of knowledge regarding software field. We encourage the
+                    application of engineering methods and principles to the
+                    development of software through regularly scheduled webinars
+                    and workshops.
                   </p>
                 </div>
               </div>
@@ -89,7 +91,7 @@ export default function Software() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                  src={require("assets/img/PngItem_1947767.png").default}
                 />
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
@@ -127,11 +129,9 @@ export default function Software() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold">Here are our heroes</h2>
+                <h2 className="text-4xl font-semibold">Meet Our EX-COM</h2>
                 <p className="text-lg leading-relaxed m-4 text-blueGray-500">
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-                  potentially record maximum.
+            
                 </p>
               </div>
             </div>
@@ -140,32 +140,23 @@ export default function Software() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-1-800x800.jpg").default}
+                    src={require("assets/img/software/120804961_2536411073315491_5486620476036104554_n - Jayod Kavinda.jpeg").default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Ryan Tompson</h5>
+                    <h5 className="text-xl font-bold">Jayod Jayasekara </h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      Web Developer
+                      President
                     </p>
                     <div className="mt-6">
                       <button
                         className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
                       >
-                        <i className="fab fa-twitter"></i>
-                      </button>
-                      <button
-                        className="bg-lightBlue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-facebook-f"></i>
-                      </button>
-                      <button
-                        className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-dribbble"></i>
+                        <a href="https://www.linkedin.com/in/jayod-kavinda/">
+                          {" "}
+                          <i className="fab fa-linkedin"></i>
+                        </a>
                       </button>
                     </div>
                   </div>
@@ -175,26 +166,25 @@ export default function Software() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-2-800x800.jpg").default}
+                    src={require("assets/img/software/Anuradha-Subasinghe-Anuradha-Subasinghe.jpg").default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Romina Hadid</h5>
+                    <h5 className="text-xl font-bold">
+                    Anuradha Subasinghe{" "}
+                    </h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      Marketing Specialist
+                      Secretary
                     </p>
                     <div className="mt-6">
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
                       >
-                        <i className="fab fa-google"></i>
-                      </button>
-                      <button
-                        className="bg-lightBlue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-facebook-f"></i>
+                        <a href="http://linkedin.com/in/subasinghe95">
+                          {" "}
+                          <i className="fab fa-linkedin"></i>
+                        </a>
                       </button>
                     </div>
                   </div>
@@ -204,32 +194,23 @@ export default function Software() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-3-800x800.jpg").default}
+                    src={require("assets/img/software/Ashan Pramodye - Ashan Herath.png").default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Alexa Smith</h5>
+                    <h5 className="text-xl font-bold">Ashan Pramodye</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      UI/UX Designer
+                      Editor
                     </p>
                     <div className="mt-6">
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
                       >
-                        <i className="fab fa-google"></i>
-                      </button>
-                      <button
-                        className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-twitter"></i>
-                      </button>
-                      <button
-                        className="bg-blueGray-700 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-instagram"></i>
+                        <a href="https://www.linkedin.com/in/ashan-pramodye-1942b4240">
+                          {" "}
+                          <i className="fab fa-linkedin"> </i>
+                        </a>
                       </button>
                     </div>
                   </div>
@@ -239,38 +220,25 @@ export default function Software() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-4-470x470.png").default}
+                    src={require("assets/img/software/IMG-6281 - Sahanaka Weraniyagoda.jpg").default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Jenna Kardi</h5>
+                    <h5 className="text-xl font-bold">
+                      Sahanaka Weraniyagoda{" "}
+                    </h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      Founder and CEO
+                      Final year committee member
                     </p>
                     <div className="mt-6">
                       <button
                         className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
                       >
-                        <i className="fab fa-dribbble"></i>
-                      </button>
-                      <button
-                        className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-google"></i>
-                      </button>
-                      <button
-                        className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-twitter"></i>
-                      </button>
-                      <button
-                        className="bg-blueGray-700 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-instagram"></i>
+                        <a href="http://linkedin.com/in/sahanaka-weraniyagoda">
+                          {" "}
+                          <i className="fab fa-linkedin"></i>
+                        </a>
                       </button>
                     </div>
                   </div>
@@ -281,7 +249,7 @@ export default function Software() {
                   <div className="pt-6 text-center"></div>
                 </div>
               </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              {/* <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
                   <img
                     alt="..."
@@ -344,7 +312,7 @@ export default function Software() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
                   <div className="pt-6 text-center"></div>
