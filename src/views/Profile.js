@@ -61,11 +61,11 @@ export default function Profile() {
                 <div className="flex flex-wrap justify-center">
                   <div className="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
                     <div className="relative">
-                      <img
+                      {/* <img
                         alt="..."
-                        src={require("assets/img/EIES LOGO.jpg").default}
+                        // src={require("assets/img/EIES LOGO.jpg").default}
                         className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-200-px"
-                      />
+                      /> */}
                     </div>
                   </div>
                   <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center">
@@ -135,12 +135,13 @@ export default function Profile() {
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Dr. Subodha Gunawardena</h5>
+                    <h5 className="text-xl font-bold">
+                      Dr. Subodha Gunawardena
+                    </h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Senior Treasurer
                     </p>
-                    <div className="mt-6">
-                    </div>
+                    <div className="mt-6"></div>
                   </div>
                 </div>
               </div>
@@ -174,7 +175,6 @@ export default function Profile() {
                   </div>
                 </div>
               </div>{" "}
-             {" "}
               <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"></div>
               <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
@@ -513,6 +513,125 @@ export default function Profile() {
                       >
                         {" "}
                         <a href="https://www.linkedin.com/in/sajitha-wijewantha-7a5a76200">
+                          {" "}
+                          <i className="fab fa-linkedin"></i>
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div className="px-6">
+                  <img
+                    alt="..."
+                    src={
+                      require("assets/img/software/12.software pres.png")
+                        .default
+                    }
+                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                  />
+                  <div className="pt-6 text-center">
+                    <h5 className="text-xl font-bold">Jayod Jayasekara </h5>
+                    <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                      President - Software Circle
+                    </p>
+                    <div className="mt-6">
+                      <button
+                        className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        <a href="https://www.linkedin.com/in/jayod-kavinda/">
+                          {" "}
+                          <i className="fab fa-linkedin"></i>
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div className="px-6">
+                  <img
+                    alt="..."
+                    src={
+                      require("assets/img/eies/Photo - Gihan Dissanayaka.png")
+                        .default
+                    }
+                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                  />
+                  <div className="pt-6 text-center">
+                    <h5 className="text-xl font-bold">Bahasuru Fernando </h5>
+                    <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                      President - Telecom Circle
+                    </p>
+                    <div className="mt-6">
+                      <button
+                        className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        {" "}
+                        <a href="https://www.linkedin.com/in/bahasurufernando/">
+                          {" "}
+                          <i className="fab fa-linkedin"></i>
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div className="px-6">
+                  <img
+                    alt="..."
+                    src={
+                      require("assets/img/power/Photo - Nirmani Rathnayaka.jpg")
+                        .default
+                    }
+                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                  />
+                  <div className="pt-6 text-center">
+                    <h5 className="text-xl font-bold">Nirmani Rathnayaka</h5>
+                    <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                      President - Power Circle
+                    </p>
+                    <div className="mt-6">
+                      <button
+                        className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        {" "}
+                        <a href="https://www.linkedin.com/in/nirmani-rathnayaka">
+                          {" "}
+                          <i className="fab fa-linkedin"></i>
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div className="px-6">
+                  <img
+                    alt="..."
+                    src={
+                      require("assets/img/elec/20200802_125540 - Charitha Maduranga.jpg")
+                        .default
+                    }
+                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                  />
+                  <div className="pt-6 text-center">
+                    <h5 className="text-xl font-bold">Charitha Maduranga </h5>
+                    <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                      President - Electronic Circle
+                    </p>
+                    <div className="mt-6">
+                      <button
+                        className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        {" "}
+                        <a href="https://www.linkedin.com/in/charithamaduranga-a29796149/">
                           {" "}
                           <i className="fab fa-linkedin"></i>
                         </a>

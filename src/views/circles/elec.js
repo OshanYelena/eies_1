@@ -239,11 +239,11 @@ export default function Elec() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-2-800x800.jpg").default}
+                    src={require("assets/img/elec/1.png").default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Romina Hadid</h5>
+                    <h5 className="text-xl font-bold">Akila Awantha</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                     Committee member 
                     </p>
@@ -262,11 +262,11 @@ export default function Elec() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-3-800x800.jpg").default}
+                    src={require("assets/img/elec/ AnuradhaWickramasinghe.jpg").default}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Alexa Smith</h5>
+                    <h5 className="text-xl font-bold">Anuradha Wicramasinghe</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                     Committee member 
                     </p>

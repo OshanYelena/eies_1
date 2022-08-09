@@ -249,6 +249,68 @@ export default function Software() {
                   <div className="pt-6 text-center"></div>
                 </div>
               </div>
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div className="px-6">
+                  <img
+                    alt="..."
+                    src={require("assets/img/software/123.png").default}
+                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                  />
+                  <div className="pt-6 text-center">
+                    <h5 className="text-xl font-bold">
+                      Masha Pitumpe
+                    </h5>
+                    <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                    committee member
+                    </p>
+                    <div className="mt-6">
+                      <button
+                        className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        <a href="http://linkedin.com/in/sahanaka-weraniyagoda">
+                          {" "}
+                          <i className="fab fa-linkedin"></i>
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div className="px-6">
+                  <img
+                    alt="..."
+                    // src={require("assets/img/software/IMG-6281 - Sahanaka Weraniyagoda.jpg").default}
+                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                  />
+                  <div className="pt-6 text-center">
+                    <h5 className="text-xl font-bold">
+                      Bandara H.M.P
+                    </h5>
+                    <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                      committee member
+                    </p>
+                    <div className="mt-6">
+                      <button
+                        className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        <a href="http://linkedin.com/in/sahanaka-weraniyagoda">
+                          {" "}
+                          <i className="fab fa-linkedin"></i>
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div className="px-6">
+                  <div className="pt-6 text-center"></div>
+                </div>
+              </div>
+
               {/* <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
                   <img

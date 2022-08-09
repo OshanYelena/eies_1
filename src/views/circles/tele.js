@@ -250,7 +250,7 @@ export default function Tele() {
                   <div className="pt-6 text-center"></div>
                 </div>
               </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              {/* <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
                   <img
                     alt="..."
@@ -313,7 +313,7 @@ export default function Tele() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
                   <div className="pt-6 text-center"></div>
